@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #e8e8e8;
+}
 .titleImg {
   height: 300px;
 }
