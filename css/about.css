@@ -1,0 +1,99 @@
+/*About Page */
+.aboutBackground {
+  background-image: url("../images/BackgroundAbout.png");
+  background-size: cover;
+  min-height: 600px;
+}
+
+.aboutP {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.aboutP h2 {
+  font-size: 2em;
+}
+
+.aboutPContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.aboutCont {
+  background-color: rgb(236, 237, 248);
+  box-shadow: 2px 2px 2px grey;
+  width: 80%;
+  min-height: 150px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+}
+
+.meImages {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 50px;
+}
+
+.meImages img {
+  width: 100%;
+  height: 450px;
+  flex: 1;
+  border-radius: 12px;
+}
+
+.aboutInterest {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.aboutInterest .interestItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  align-items: center;
+}
+
+.aboutInterest .interestItem img {
+  width: 65%;
+  height: 380px;
+  border-radius: 12px;
+}
+
+.interestItemWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .meImages {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .meImages img {
+    width: 80%;
+  }
+
+  .interestItemWrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
